@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.headerLeft {
+    display: flex;
+}
+
+.logo {
+    padding: 20px 30px;
+    border-right: 1px solid #ccc;
+}
+
+.textAdders {
+    padding: 20px 30px;
+}
+
+.searchBox{
+    display: flex;
+    flex-grow: 1;
+    background-color: #F8F8F8;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
+
+.searchBox button {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.searchBox input {
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+}
+
+.searchBox input:focus{
+    outline: none;
+}
+
+/* header buuton */
+
+.headerBtn {
+    display: flex;
+    gap: 30px;
+}
+
+.headerBtn button{
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    margin-right: 40px;
+    background-color: transparent;
+}
+
+.headerBtn button:last-child{
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: #72B75E;
+}
+
+.bannerSection{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.bannerSection img{
+    width: 100%;
+}
+
+/* orderSction */
+.orderSection{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+}
+
+.orderItems {
+    margin: 1%;
+    flex-basis: 27%;
+}
+
+.orderItems img{
+    width: 100%;
+}
+
+/* categroySection */
+
+.categroySection{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categroyItems {
+    flex-basis: 10%;
+}
+
+.categroyItems img {
+    width: 100%;
+}
+
+/* productSection */
+.productSection{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.headingRow{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.headingRow a {
+    color: #72B75E;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.productRow{
+    display: flex;
+}
+
+.productItems{
+    border: 1px solid #ccc;
+    flex-basis: 15%;
+    padding: 15px;
+}
+
+.productImg {
+    text-align: center;
+}
+
+.productImg p {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    background-color: #F8F8F8;
+    font-size: 12px;
+    text-align: left;
+
+}

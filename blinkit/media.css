@@ -1,0 +1,42 @@
+@media screen and (min-width:200px) and (max-width:575px) {
+    
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        justify-content: center;
+    }
+    .logo {
+        padding: 10px;
+    }
+    .textAdders{
+        padding:10px;
+    }
+    .textAdders h3 {
+        font-size: 15px;
+    }
+    .textAdders p {
+        font-size: 12px;
+    }
+    .searchBox button{
+        padding: 10px;
+    }
+    .headerBtn{
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .bannerSection{
+        display: none;
+    }
+    .orderSection{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .categroyItems {
+        flex-basis: 25%;
+    }
+}
