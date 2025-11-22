@@ -136,11 +136,15 @@ header{
 
 .productRow{
     display: flex;
+    gap: 2%;;
+    flex-wrap: wrap;
 }
 
 .productItems{
     border: 1px solid #ccc;
     flex-basis: 15%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #ccc;
     padding: 15px;
 }
 
@@ -148,13 +152,43 @@ header{
     text-align: center;
 }
 
-.productImg p {
+.productImg >p {
     padding: 2px;
     display: flex;
+    gap: 3px;
+    justify-content: center;
     align-items: center;
-    width: 60px;
+    width: 70px;
     background-color: #F8F8F8;
     font-size: 12px;
     text-align: left;
+}
+
+.productContant h3{
+    margin: 20px 0;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.productContant p {
+    text-align: left;
+    font-size: 15px;
+    color:#58626d;
+}
+
+.productOut-line{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    /* padding: 15px 0; */
+}
+
+.productOut-line button {
+    background-color: #F7FFF9;
+    padding: 7px 15px;
+    border: 1px solid #318616;
+    border-radius: 10px;
 
 }
