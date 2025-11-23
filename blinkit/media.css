@@ -48,4 +48,21 @@
     .headingRow{
         margin-top: 0px;
     }
+    footer{
+        margin-top: 0px;
+    }
+    .footer-Row1{
+        flex-direction: column;
+    }
+    .footer-Row2-Right{
+        margin-top: 20px;
+    }
+    .footer-Row2{
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-Row3 {
+        padding: 0 10px ;
+    }
 }

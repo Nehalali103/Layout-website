@@ -211,6 +211,7 @@ footer {
 
 .footer-Row1 {
     display: flex;
+    width: 100%;
 }
 
 .footer-Row1-Left {
@@ -275,3 +276,51 @@ footer {
     color: rgb(102, 102, 102);
 }
 
+.footer-Row2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    margin-top: 40px ;
+    background-color: #FCFCFC;
+}
+
+.footer-Text p{
+    flex-basis: 40%;
+    font-size: 14px;
+    color: #58626d;
+}
+
+.appIcon{
+    gap: 15px;
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+}
+
+.appIcon h5{
+    color: #58626d;
+}
+
+.socialLink{
+    display: flex;
+    gap: 10px;
+}
+
+.socialLink i{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.footer-Row3 p{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0;
+    color: #58626d;
+}
